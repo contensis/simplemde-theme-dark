@@ -567,7 +567,12 @@ span.CodeMirror-selectedtext {
   .editor-preview-side a {
     text-decoration: underline;
     color: #CCCCCC; }
-  .editor-preview h1, .editor-preview h2, .editor-preview h3, .editor-preview h4, .editor-preview h5, .editor-preview h6,
+  .editor-preview h1,
+  .editor-preview h2,
+  .editor-preview h3,
+  .editor-preview h4,
+  .editor-preview h5,
+  .editor-preview h6,
   .editor-preview-side h1,
   .editor-preview-side h2,
   .editor-preview-side h3,
@@ -589,7 +594,8 @@ span.CodeMirror-selectedtext {
   .editor-preview p,
   .editor-preview-side p {
     margin-bottom: 1.5em; }
-  .editor-preview p, .editor-preview ul,
+  .editor-preview p,
+  .editor-preview ul,
   .editor-preview-side p,
   .editor-preview-side ul {
     font-size: 1.6rem; }
@@ -610,7 +616,8 @@ span.CodeMirror-selectedtext {
   .editor-preview pre,
   .editor-preview-side pre {
     margin-bottom: 1.5em; }
-  .editor-preview pre, .editor-preview code,
+  .editor-preview pre,
+  .editor-preview code,
   .editor-preview-side pre,
   .editor-preview-side code {
     color: #CCCCCC; }
@@ -618,7 +625,8 @@ span.CodeMirror-selectedtext {
   .editor-preview-side table thead {
     background-color: rgba(255, 255, 255, 0.05);
     color: #CCCCCC; }
-  .editor-preview table th, .editor-preview table td,
+  .editor-preview table th,
+  .editor-preview table td,
   .editor-preview-side table th,
   .editor-preview-side table td {
     font-size: 14px; }
