@@ -9,22 +9,34 @@
 
 
 // Background color
-$color-background: #444;
+$color-background: #1A1A1A;
 // For code, th
 $color-background-over: rgba(255, 255, 255, 0.05);
 // For selected area
 $color-background-selected: rgba(255, 255, 255, 0.1);
 
 // Border color
-$color-border: #555;
+$color-border: #212121;
 
 // Text color
-$color-text: #aaa;
-$color-text-muted: #777;
+$color-text: #CCCCCC;
+$color-text-muted: #CCCCCC;
 // The link color
-$color-text-link: hsl(50, 100%, 50%);
+$color-text-link: #777;
 
 // For preview section
-$smde-color-background-preview: #444;
+$smde-color-background-preview: #101010;
 // Image alt, HTML tag and attribute
-$smde-color-text-tag: hsl(80, 50%, 50%);
+$smde-color-text-tag: #777;
+
+$font-size-base: 10px;
+
+// Main font-size
+$font-size: $font-size-base * 1.6 !default;
+// Headers
+$font-size-h1: $font-size-base * 1.6 !default;
+$font-size-h2: $font-size-base * 1.6 !default;
+$font-size-h3: $font-size-base * 1.6 !default;
+$font-size-h4: $font-size-base * 1.6 !default;
+$font-size-h5: $font-size-base * 1.6 !default;
+$font-size-h6: $font-size-base * 1.6 !default;
