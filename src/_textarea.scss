@@ -1,96 +1,99 @@
-.CodeMirror .CodeMirror-code {
-  padding: $width-gap * 2;
-  //
-  // Colors
-  //
+.CodeMirror-theme--dark {
+  
+  .CodeMirror .CodeMirror-code {
+    //
+    // Colors
+    //
 
-  // HTML tag and image alt
-  .cm-tag {
-    color: $smde-color-text-tag;
-  }
-  // HTML attribute key
-  .cm-attribute {
-    color: $smde-color-text-tag;
-  }
-  // HTML attribute value
-  .cm-string {
-    color: $color-text-muted;
-  }
-  .cm-link {
-    color: $color-text-link;
-  }
-  // Url part can be muted since link is highlighted
-  .cm-url {
-    color: $color-text-muted;
-  }
-  .cm-hr {
-    color: $color-text-muted;
-  }
+    // HTML tag and image alt
+    .cm-tag {
+      color: $smde-color-text-tag;
+    }
+    // HTML attribute key
+    .cm-attribute {
+      color: $smde-color-text-tag;
+    }
+    // HTML attribute value
+    .cm-string {
+      color: $color-text-muted;
+    }
+    .cm-link {
+      color: $color-text-link;
+    }
+    // Url part can be muted since link is highlighted
+    .cm-url {
+      color: $color-text-muted;
+    }
+    .cm-hr {
+      color: $color-text-muted;
+    }
 
-  // Text that won't rendered should be muted
-  .cm-formatting-header,
-  .cm-formatting-em,
-  .cm-formatting-strong,
-  .cm-formatting-strikethrough,
-  .cm-formatting-code,
-  .cm-formatting-code-block {
-    color: $color-text-muted;
-  }
+    // Text that won't rendered should be muted
+    .cm-formatting-header,
+    .cm-formatting-em,
+    .cm-formatting-strong,
+    .cm-formatting-strikethrough,
+    .cm-formatting-code,
+    .cm-formatting-code-block {
+      color: $color-text-muted;
+    }
 
 
-  //
-  // Typography
-  //
+    //
+    // Typography
+    //
 
-  // Headings
-  .cm-header-1,
-  .cm-header-2,
-  .cm-header-3,
-  .cm-header-4,
-  .cm-header-5,
-  .cm-header-6 {
-    line-height: $line-height-header;
-  }
-  .cm-header-1 {
-    font-size: $font-size-h1;
-  }
-  .cm-header-2 {
-    font-size: $font-size-h2;
-  }
-  .cm-header-3 {
-    font-size: $font-size-h3;
-  }
-  .cm-header-4 {
-    font-size: $font-size-h4;
-  }
-  .cm-header-5 {
-    font-size: $font-size-h5;
-  }
-  .cm-header-6 {
-    font-size: $font-size-h6;
-  }
+    // Headings
+    .cm-header-1,
+    .cm-header-2,
+    .cm-header-3,
+    .cm-header-4,
+    .cm-header-5,
+    .cm-header-6 {
+      line-height: $line-height-header;
+    }
+    .cm-header-1 {
+      font-size: $font-size-h1;
+    }
+    .cm-header-2 {
+      font-size: $font-size-h2;
+    }
+    .cm-header-3 {
+      font-size: $font-size-h3;
+    }
+    .cm-header-4 {
+      font-size: $font-size-h4;
+    }
+    .cm-header-5 {
+      font-size: $font-size-h5;
+    }
+    .cm-header-6 {
+      font-size: $font-size-h6;
+    }
 
-  .cm-header,
-  .cm-strong {
-    font-weight: $font-weight-bold;
-  }
+    .cm-header,
+    .cm-strong {
+      font-weight: $font-weight-bold;
+    }
 
-  // Code
-  .cm-comment {
-    background-color: $color-background-over;
-    font-family: $font-family-monospace;
-    font-size: $font-size-code;
-    padding: $padding-code;
-  }
-  span.CodeMirror-selectedtext.cm-comment {
-    background-color: $color-background-over;
-  }
+    // Code
+    .cm-comment {
+      background-color: $color-background-over;
+      font-family: $font-family-monospace;
+      font-size: $font-size-code;
+      padding: $padding-code;
+    }
+    span.CodeMirror-selectedtext.cm-comment {
+      background-color: $color-background-over;
+    }
 
-  .cm-quote {
-    color: $color-text-muted;
-  }
+    .cm-quote {
+      color: $color-text-muted;
+    }
 
-  .cm-strikethrough {
-    text-decoration: line-through;
+    .cm-strikethrough {
+      text-decoration: line-through;
+    }
   }
+  
 }

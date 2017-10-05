@@ -402,7 +402,7 @@ div.CodeMirror-dragcursors {
 span.CodeMirror-selectedtext {
   background: none; }
 
-.CodeMirror {
+.CodeMirror-theme--dark .CodeMirror {
   background-color: #1A1A1A;
   border: 1px solid #212121;
   border-bottom-left-radius: 3px;
@@ -416,13 +416,13 @@ span.CodeMirror-selectedtext {
   padding: 14px;
   z-index: 1; }
 
-.CodeMirror-scroll {
+.CodeMirror-theme--dark .CodeMirror-scroll {
   margin-bottom: -32px;
   margin-right: -32px;
   min-height: 300px;
   padding-bottom: 32px; }
 
-.CodeMirror-fullscreen {
+.CodeMirror-theme--dark .CodeMirror-fullscreen {
   background-color: #1A1A1A;
   border: 0;
   border-top: 1px solid #212121;
@@ -434,91 +434,107 @@ span.CodeMirror-selectedtext {
   top: 58px;
   z-index: 9; }
 
-.CodeMirror-sided {
+.CodeMirror-theme--dark .CodeMirror-sided {
   width: 50% !important; }
 
-.CodeMirror .CodeMirror-placeholder {
+.CodeMirror-theme--dark .CodeMirror .CodeMirror-placeholder {
   color: #CCCCCC; }
 
-.CodeMirror-cursor {
+.CodeMirror-theme--dark .CodeMirror-cursor {
   border-left-color: #CCCCCC; }
 
-.CodeMirror-lines {
+.CodeMirror-theme--dark .CodeMirror-lines {
   padding: 0; }
 
-.CodeMirror pre {
+.CodeMirror-theme--dark .CodeMirror pre {
   padding: 0 0; }
 
-.CodeMirror-selected,
-.CodeMirror-focused .CodeMirror-selected,
-.CodeMirror-line::-moz-selection,
-.CodeMirror-line > span::-moz-selection,
-.CodeMirror-line > span > span::-moz-selection {
+.CodeMirror-theme--dark .CodeMirror-selected,
+.CodeMirror-theme--dark .CodeMirror-focused .CodeMirror-selected,
+.CodeMirror-theme--dark .CodeMirror-line::-moz-selection,
+.CodeMirror-theme--dark .CodeMirror-line > span::-moz-selection,
+.CodeMirror-theme--dark .CodeMirror-line > span > span::-moz-selection {
   background-color: rgba(255, 255, 255, 0.1); }
 
-.CodeMirror-selected,
-.CodeMirror-focused .CodeMirror-selected,
-.CodeMirror-line::selection,
-.CodeMirror-line > span::selection,
-.CodeMirror-line > span > span::selection {
+.CodeMirror-theme--dark .CodeMirror-selected,
+.CodeMirror-theme--dark .CodeMirror-focused .CodeMirror-selected,
+.CodeMirror-theme--dark .CodeMirror-line::selection,
+.CodeMirror-theme--dark .CodeMirror-line > span::selection,
+.CodeMirror-theme--dark .CodeMirror-line > span > span::selection {
   background-color: rgba(255, 255, 255, 0.1); }
 
-.CodeMirror .CodeMirror-code {
-  padding: 28px; }
-  .CodeMirror .CodeMirror-code .cm-tag {
-    color: #777; }
-  .CodeMirror .CodeMirror-code .cm-attribute {
-    color: #777; }
-  .CodeMirror .CodeMirror-code .cm-string {
-    color: #CCCCCC; }
-  .CodeMirror .CodeMirror-code .cm-link {
-    color: #777; }
-  .CodeMirror .CodeMirror-code .cm-url {
-    color: #CCCCCC; }
-  .CodeMirror .CodeMirror-code .cm-hr {
-    color: #CCCCCC; }
-  .CodeMirror .CodeMirror-code .cm-formatting-header,
-  .CodeMirror .CodeMirror-code .cm-formatting-em,
-  .CodeMirror .CodeMirror-code .cm-formatting-strong,
-  .CodeMirror .CodeMirror-code .cm-formatting-strikethrough,
-  .CodeMirror .CodeMirror-code .cm-formatting-code,
-  .CodeMirror .CodeMirror-code .cm-formatting-code-block {
-    color: #CCCCCC; }
-  .CodeMirror .CodeMirror-code .cm-header-1,
-  .CodeMirror .CodeMirror-code .cm-header-2,
-  .CodeMirror .CodeMirror-code .cm-header-3,
-  .CodeMirror .CodeMirror-code .cm-header-4,
-  .CodeMirror .CodeMirror-code .cm-header-5,
-  .CodeMirror .CodeMirror-code .cm-header-6 {
-    line-height: 2; }
-  .CodeMirror .CodeMirror-code .cm-header-1 {
-    font-size: 16px; }
-  .CodeMirror .CodeMirror-code .cm-header-2 {
-    font-size: 16px; }
-  .CodeMirror .CodeMirror-code .cm-header-3 {
-    font-size: 16px; }
-  .CodeMirror .CodeMirror-code .cm-header-4 {
-    font-size: 16px; }
-  .CodeMirror .CodeMirror-code .cm-header-5 {
-    font-size: 16px; }
-  .CodeMirror .CodeMirror-code .cm-header-6 {
-    font-size: 16px; }
-  .CodeMirror .CodeMirror-code .cm-header,
-  .CodeMirror .CodeMirror-code .cm-strong {
-    font-weight: 600; }
-  .CodeMirror .CodeMirror-code .cm-comment {
-    background-color: rgba(255, 255, 255, 0.05);
-    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-    font-size: 14px;
-    padding: 6px 0 4px; }
-  .CodeMirror .CodeMirror-code span.CodeMirror-selectedtext.cm-comment {
-    background-color: rgba(255, 255, 255, 0.05); }
-  .CodeMirror .CodeMirror-code .cm-quote {
-    color: #CCCCCC; }
-  .CodeMirror .CodeMirror-code .cm-strikethrough {
-    text-decoration: line-through; }
+.CodeMirror-theme--dark .CodeMirror .CodeMirror-code .cm-tag {
+  color: #777; }
 
-.editor-preview {
+.CodeMirror-theme--dark .CodeMirror .CodeMirror-code .cm-attribute {
+  color: #777; }
+
+.CodeMirror-theme--dark .CodeMirror .CodeMirror-code .cm-string {
+  color: #CCCCCC; }
+
+.CodeMirror-theme--dark .CodeMirror .CodeMirror-code .cm-link {
+  color: #777; }
+
+.CodeMirror-theme--dark .CodeMirror .CodeMirror-code .cm-url {
+  color: #CCCCCC; }
+
+.CodeMirror-theme--dark .CodeMirror .CodeMirror-code .cm-hr {
+  color: #CCCCCC; }
+
+.CodeMirror-theme--dark .CodeMirror .CodeMirror-code .cm-formatting-header,
+.CodeMirror-theme--dark .CodeMirror .CodeMirror-code .cm-formatting-em,
+.CodeMirror-theme--dark .CodeMirror .CodeMirror-code .cm-formatting-strong,
+.CodeMirror-theme--dark .CodeMirror .CodeMirror-code .cm-formatting-strikethrough,
+.CodeMirror-theme--dark .CodeMirror .CodeMirror-code .cm-formatting-code,
+.CodeMirror-theme--dark .CodeMirror .CodeMirror-code .cm-formatting-code-block {
+  color: #CCCCCC; }
+
+.CodeMirror-theme--dark .CodeMirror .CodeMirror-code .cm-header-1,
+.CodeMirror-theme--dark .CodeMirror .CodeMirror-code .cm-header-2,
+.CodeMirror-theme--dark .CodeMirror .CodeMirror-code .cm-header-3,
+.CodeMirror-theme--dark .CodeMirror .CodeMirror-code .cm-header-4,
+.CodeMirror-theme--dark .CodeMirror .CodeMirror-code .cm-header-5,
+.CodeMirror-theme--dark .CodeMirror .CodeMirror-code .cm-header-6 {
+  line-height: 2; }
+
+.CodeMirror-theme--dark .CodeMirror .CodeMirror-code .cm-header-1 {
+  font-size: 16px; }
+
+.CodeMirror-theme--dark .CodeMirror .CodeMirror-code .cm-header-2 {
+  font-size: 16px; }
+
+.CodeMirror-theme--dark .CodeMirror .CodeMirror-code .cm-header-3 {
+  font-size: 16px; }
+
+.CodeMirror-theme--dark .CodeMirror .CodeMirror-code .cm-header-4 {
+  font-size: 16px; }
+
+.CodeMirror-theme--dark .CodeMirror .CodeMirror-code .cm-header-5 {
+  font-size: 16px; }
+
+.CodeMirror-theme--dark .CodeMirror .CodeMirror-code .cm-header-6 {
+  font-size: 16px; }
+
+.CodeMirror-theme--dark .CodeMirror .CodeMirror-code .cm-header,
+.CodeMirror-theme--dark .CodeMirror .CodeMirror-code .cm-strong {
+  font-weight: 600; }
+
+.CodeMirror-theme--dark .CodeMirror .CodeMirror-code .cm-comment {
+  background-color: rgba(255, 255, 255, 0.05);
+  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 14px;
+  padding: 6px 0 4px; }
+
+.CodeMirror-theme--dark .CodeMirror .CodeMirror-code span.CodeMirror-selectedtext.cm-comment {
+  background-color: rgba(255, 255, 255, 0.05); }
+
+.CodeMirror-theme--dark .CodeMirror .CodeMirror-code .cm-quote {
+  color: #CCCCCC; }
+
+.CodeMirror-theme--dark .CodeMirror .CodeMirror-code .cm-strikethrough {
+  text-decoration: line-through; }
+
+.CodeMirror-theme--dark .editor-preview {
   height: 100%;
   left: 0;
   position: absolute;
@@ -526,7 +542,7 @@ span.CodeMirror-selectedtext {
   width: 100%;
   z-index: 2; }
 
-.editor-preview-side {
+.CodeMirror-theme--dark .editor-preview-side {
   border: 0;
   border-left: 1px solid #212121;
   border-top: 1px solid #212121;
@@ -537,8 +553,8 @@ span.CodeMirror-selectedtext {
   width: 50%;
   z-index: 9; }
 
-.editor-preview,
-.editor-preview-side {
+.CodeMirror-theme--dark .editor-preview,
+.CodeMirror-theme--dark .editor-preview-side {
   background-color: #101010;
   box-sizing: border-box;
   color: #CCCCCC;
@@ -548,8 +564,8 @@ span.CodeMirror-selectedtext {
   line-height: 1.5;
   overflow: auto;
   padding: 28px; }
-  .editor-preview pre,
-  .editor-preview-side pre {
+  .CodeMirror-theme--dark .editor-preview pre,
+  .CodeMirror-theme--dark .editor-preview-side pre {
     background-color: rgba(255, 255, 255, 0.05);
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     font-size: 14px;
@@ -558,126 +574,126 @@ span.CodeMirror-selectedtext {
     overflow: auto;
     -webkit-overflow-scrolling: touch;
     padding: 14px; }
-    .editor-preview pre code,
-    .editor-preview-side pre code {
+    .CodeMirror-theme--dark .editor-preview pre code,
+    .CodeMirror-theme--dark .editor-preview-side pre code {
       background-color: transparent;
       font-size: 14px;
       padding: 0; }
-  .editor-preview a,
-  .editor-preview-side a {
+  .CodeMirror-theme--dark .editor-preview a,
+  .CodeMirror-theme--dark .editor-preview-side a {
     text-decoration: underline;
     color: #CCCCCC; }
-  .editor-preview h1,
-  .editor-preview h2,
-  .editor-preview h3,
-  .editor-preview h4,
-  .editor-preview h5,
-  .editor-preview h6,
-  .editor-preview-side h1,
-  .editor-preview-side h2,
-  .editor-preview-side h3,
-  .editor-preview-side h4,
-  .editor-preview-side h5,
-  .editor-preview-side h6 {
+  .CodeMirror-theme--dark .editor-preview h1,
+  .CodeMirror-theme--dark .editor-preview h2,
+  .CodeMirror-theme--dark .editor-preview h3,
+  .CodeMirror-theme--dark .editor-preview h4,
+  .CodeMirror-theme--dark .editor-preview h5,
+  .CodeMirror-theme--dark .editor-preview h6,
+  .CodeMirror-theme--dark .editor-preview-side h1,
+  .CodeMirror-theme--dark .editor-preview-side h2,
+  .CodeMirror-theme--dark .editor-preview-side h3,
+  .CodeMirror-theme--dark .editor-preview-side h4,
+  .CodeMirror-theme--dark .editor-preview-side h5,
+  .CodeMirror-theme--dark .editor-preview-side h6 {
     text-align: center; }
-  .editor-preview h1,
-  .editor-preview-side h1 {
+  .CodeMirror-theme--dark .editor-preview h1,
+  .CodeMirror-theme--dark .editor-preview-side h1 {
     font-size: 1.8rem;
     text-transform: uppercase;
     margin-bottom: 3em; }
-  .editor-preview h2,
-  .editor-preview-side h2 {
+  .CodeMirror-theme--dark .editor-preview h2,
+  .CodeMirror-theme--dark .editor-preview-side h2 {
     margin-bottom: 2em; }
-  .editor-preview h3,
-  .editor-preview-side h3 {
+  .CodeMirror-theme--dark .editor-preview h3,
+  .CodeMirror-theme--dark .editor-preview-side h3 {
     margin-bottom: 1em; }
-  .editor-preview p,
-  .editor-preview-side p {
+  .CodeMirror-theme--dark .editor-preview p,
+  .CodeMirror-theme--dark .editor-preview-side p {
     margin-bottom: 1.5em; }
-  .editor-preview p,
-  .editor-preview ul,
-  .editor-preview-side p,
-  .editor-preview-side ul {
+  .CodeMirror-theme--dark .editor-preview p,
+  .CodeMirror-theme--dark .editor-preview ul,
+  .CodeMirror-theme--dark .editor-preview-side p,
+  .CodeMirror-theme--dark .editor-preview-side ul {
     font-size: 1.6rem; }
-  .editor-preview ul,
-  .editor-preview-side ul {
+  .CodeMirror-theme--dark .editor-preview ul,
+  .CodeMirror-theme--dark .editor-preview-side ul {
     padding-left: 3em; }
-  .editor-preview blockquote,
-  .editor-preview-side blockquote {
+  .CodeMirror-theme--dark .editor-preview blockquote,
+  .CodeMirror-theme--dark .editor-preview-side blockquote {
     background: none;
     margin-left: 1em;
     font-style: italic;
     margin-bottom: 0; }
-  .editor-preview code,
-  .editor-preview-side code {
+  .CodeMirror-theme--dark .editor-preview code,
+  .CodeMirror-theme--dark .editor-preview-side code {
     background-color: rgba(255, 255, 255, 0.05);
     font-size: 14px;
     padding: 0; }
-  .editor-preview pre,
-  .editor-preview-side pre {
+  .CodeMirror-theme--dark .editor-preview pre,
+  .CodeMirror-theme--dark .editor-preview-side pre {
     margin-bottom: 1.5em; }
-  .editor-preview pre,
-  .editor-preview code,
-  .editor-preview-side pre,
-  .editor-preview-side code {
+  .CodeMirror-theme--dark .editor-preview pre,
+  .CodeMirror-theme--dark .editor-preview code,
+  .CodeMirror-theme--dark .editor-preview-side pre,
+  .CodeMirror-theme--dark .editor-preview-side code {
     color: #CCCCCC; }
-  .editor-preview table thead,
-  .editor-preview-side table thead {
+  .CodeMirror-theme--dark .editor-preview table thead,
+  .CodeMirror-theme--dark .editor-preview-side table thead {
     background-color: rgba(255, 255, 255, 0.05);
     color: #CCCCCC; }
-  .editor-preview table th,
-  .editor-preview table td,
-  .editor-preview-side table th,
-  .editor-preview-side table td {
+  .CodeMirror-theme--dark .editor-preview table th,
+  .CodeMirror-theme--dark .editor-preview table td,
+  .CodeMirror-theme--dark .editor-preview-side table th,
+  .CodeMirror-theme--dark .editor-preview-side table td {
     font-size: 14px; }
 
-.editor-preview-active,
-.editor-preview-active-side {
+.CodeMirror-theme--dark .editor-preview-active,
+.CodeMirror-theme--dark .editor-preview-active-side {
   display: block; }
 
-.editor-preview table,
-.editor-preview-side table {
+.CodeMirror-theme--dark .editor-preview table,
+.CodeMirror-theme--dark .editor-preview-side table {
   background-color: #1A1A1A;
   border: 0;
   border-collapse: collapse;
   border-spacing: 0;
   width: 100%; }
-  .editor-preview table caption,
-  .editor-preview-side table caption {
+  .CodeMirror-theme--dark .editor-preview table caption,
+  .CodeMirror-theme--dark .editor-preview-side table caption {
     caption-side: bottom;
     color: #CCCCCC;
     padding: 7px;
     text-align: left; }
-  .editor-preview table th,
-  .editor-preview table td,
-  .editor-preview-side table th,
-  .editor-preview-side table td {
+  .CodeMirror-theme--dark .editor-preview table th,
+  .CodeMirror-theme--dark .editor-preview table td,
+  .CodeMirror-theme--dark .editor-preview-side table th,
+  .CodeMirror-theme--dark .editor-preview-side table td {
     border: 0;
     border-bottom: 1px solid #212121;
     padding: 7px;
     text-align: left; }
-  .editor-preview table th,
-  .editor-preview-side table th {
+  .CodeMirror-theme--dark .editor-preview table th,
+  .CodeMirror-theme--dark .editor-preview-side table th {
     background-color: rgba(255, 255, 255, 0.05);
     font-weight: 600; }
 
-.editor-preview audio:not([controls]),
-.editor-preview-side audio:not([controls]) {
+.CodeMirror-theme--dark .editor-preview audio:not([controls]),
+.CodeMirror-theme--dark .editor-preview-side audio:not([controls]) {
   display: none;
   height: 0; }
 
-.editor-preview img,
-.editor-preview-side img {
+.CodeMirror-theme--dark .editor-preview img,
+.CodeMirror-theme--dark .editor-preview-side img {
   max-width: 100%;
   vertical-align: middle; }
 
-.editor-preview audio,
-.editor-preview video,
-.editor-preview-side audio,
-.editor-preview-side video {
+.CodeMirror-theme--dark .editor-preview audio,
+.CodeMirror-theme--dark .editor-preview video,
+.CodeMirror-theme--dark .editor-preview-side audio,
+.CodeMirror-theme--dark .editor-preview-side video {
   width: 100%; }
 
-.editor-toolbar {
+.CodeMirror-theme--dark .editor-toolbar {
   background-color: #1A1A1A;
   border: 1px solid #212121;
   border-bottom: 0;
@@ -690,15 +706,15 @@ span.CodeMirror-selectedtext {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none; }
-  .editor-toolbar::before, .editor-toolbar::after {
+  .CodeMirror-theme--dark .editor-toolbar::before, .CodeMirror-theme--dark .editor-toolbar::after {
     content: ' ';
     display: block;
     height: 1px; }
-  .editor-toolbar::before {
+  .CodeMirror-theme--dark .editor-toolbar::before {
     margin-bottom: 7px; }
-  .editor-toolbar::after {
+  .CodeMirror-theme--dark .editor-toolbar::after {
     margin-top: 7px; }
-  .editor-toolbar a {
+  .CodeMirror-theme--dark .editor-toolbar a {
     border: 1px solid transparent;
     border-radius: 3px;
     color: #CCCCCC !important;
@@ -710,39 +726,39 @@ span.CodeMirror-selectedtext {
     text-align: center;
     text-decoration: none !important;
     width: 30px; }
-    .editor-toolbar a.active, .editor-toolbar a:hover {
+    .CodeMirror-theme--dark .editor-toolbar a.active, .CodeMirror-theme--dark .editor-toolbar a:hover {
       border-color: #212121;
       color: #CCCCCC !important; }
-    .editor-toolbar a::before {
+    .CodeMirror-theme--dark .editor-toolbar a::before {
       line-height: 30px; }
-    .editor-toolbar a.fa-header-x::after {
+    .CodeMirror-theme--dark .editor-toolbar a.fa-header-x::after {
       bottom: -0.25em;
       font-family: inherit;
       font-size: 80%;
       line-height: 0;
       position: relative;
       vertical-align: baseline; }
-    .editor-toolbar a.fa-header-1::after {
+    .CodeMirror-theme--dark .editor-toolbar a.fa-header-1::after {
       content: "1"; }
-    .editor-toolbar a.fa-header-2::after {
+    .CodeMirror-theme--dark .editor-toolbar a.fa-header-2::after {
       content: "2"; }
-    .editor-toolbar a.fa-header-3::after {
+    .CodeMirror-theme--dark .editor-toolbar a.fa-header-3::after {
       content: "3"; }
-    .editor-toolbar a.fa-header-bigger::after {
+    .CodeMirror-theme--dark .editor-toolbar a.fa-header-bigger::after {
       content: "▲"; }
-    .editor-toolbar a.fa-header-smaller::after {
+    .CodeMirror-theme--dark .editor-toolbar a.fa-header-smaller::after {
       content: "▼"; }
-  .editor-toolbar i.separator {
+  .CodeMirror-theme--dark .editor-toolbar i.separator {
     border-right: 1px solid #212121;
     color: transparent;
     display: inline-block;
     margin: 0 7px;
     text-indent: -10px;
     width: 0; }
-  .editor-toolbar:hover a {
+  .CodeMirror-theme--dark .editor-toolbar:hover a {
     color: #CCCCCC !important; }
 
-.editor-toolbar.fullscreen {
+.CodeMirror-theme--dark .editor-toolbar.fullscreen {
   background-color: #1A1A1A;
   border: 0;
   box-sizing: border-box;
@@ -757,7 +773,7 @@ span.CodeMirror-selectedtext {
   white-space: nowrap;
   width: 100%;
   z-index: 9; }
-  .editor-toolbar.fullscreen::before, .editor-toolbar.fullscreen::after {
+  .CodeMirror-theme--dark .editor-toolbar.fullscreen::before, .CodeMirror-theme--dark .editor-toolbar.fullscreen::after {
     height: 58px;
     left: 0;
     margin: 0;
@@ -767,33 +783,33 @@ span.CodeMirror-selectedtext {
     width: 20px; }
 
 @media only screen and (max-width: 700px) {
-  .editor-toolbar a.no-mobile {
+  .CodeMirror-theme--dark .editor-toolbar a.no-mobile {
     display: none; } }
 
-.editor-toolbar.disabled-for-preview a:not(.no-disable) {
+.CodeMirror-theme--dark .editor-toolbar.disabled-for-preview a:not(.no-disable) {
   background-color: #101010;
   border-color: transparent;
   pointer-events: none;
   text-shadow: inherit; }
 
-.editor-statusbar {
+.CodeMirror-theme--dark .editor-statusbar {
   color: #CCCCCC;
   font-family: inherit;
   font-size: 80%;
   padding: 7px 14px;
   text-align: right; }
 
-.editor-statusbar span {
+.CodeMirror-theme--dark .editor-statusbar span {
   display: inline-block;
   margin-left: 1em; }
 
-.editor-statusbar .lines::before {
+.CodeMirror-theme--dark .editor-statusbar .lines::before {
   content: 'lines: '; }
 
-.editor-statusbar .words::before {
+.CodeMirror-theme--dark .editor-statusbar .words::before {
   content: 'words: '; }
 
-.editor-statusbar .characters::before {
+.CodeMirror-theme--dark .editor-statusbar .characters::before {
   content: 'characters: '; }
 
 /*# sourceMappingURL=simplemde-theme-dark.css.map */
