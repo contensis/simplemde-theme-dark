@@ -13,7 +13,7 @@ $color-background: #1A1A1A;
 // For code, th
 $color-background-over: rgba(255, 255, 255, 0.05);
 // For selected area
-$color-background-selected: rgba(255, 255, 255, 0.1);
+$color-background-selected: rgba(47, 66, 78, 0.7);
 
 // Border color
 $color-border: #212121;
@@ -40,3 +40,5 @@ $font-size-h3: $font-size-base * 1.6 !default;
 $font-size-h4: $font-size-base * 1.6 !default;
 $font-size-h5: $font-size-base * 1.6 !default;
 $font-size-h6: $font-size-base * 1.6 !default;
+
+$smde-z-index-fullscreen: 1750 !default;

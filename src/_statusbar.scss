@@ -4,11 +4,11 @@
 .CodeMirror-theme--dark {
   
   .editor-statusbar {
-    color: $color-text-muted;
-    font-family: $font-family;
-    font-size: $font-size-small;
+    color: $color-text;
     padding: $width-gap-half $width-gap;
     text-align: right;
+    background: $color-background;
+
   }
 
   .editor-statusbar span {

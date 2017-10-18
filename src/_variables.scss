@@ -51,16 +51,16 @@ $line-height-header: 2 !default;
 // If your css framework already define a nice font-family,
 // you can set it to inherit
 //
-$font-family: inherit !default;
-// $font-family:
+//$font-family: inherit !default;
+ $font-family:
 //   // Safari for OS X and iOS (San Francisco)
-//   -apple-system,
+   -apple-system,
 //   // Chrome for OS X (San Francisco)
-//   BlinkMacSystemFont,
+   BlinkMacSystemFont,
 //   // Windows
-//   'Segoe UI',
+   'Segoe UI',
 //   // Android
-//   'Roboto',
+   'Roboto',
 //   // Linux
 //   'Oxygen', // KDE
 //   'Ubuntu',
@@ -68,15 +68,15 @@ $font-family: inherit !default;
 //   // Firefox OS [R.I.P.]
 //   'Fira Sans',
 //   // Older Android
-//   'Droid Sans',
+   'Droid Sans',
 //   // Chinese font for OSX and iOS
 //   'Hiragino Sans GB',
 //   // Chinese font for Windows
 //   'Microsoft Yahei', '微软雅黑',
 //   // Basic web fallback
-//   Arial, Helvetica, STHeiti, sans-serif,
+   Arial, Helvetica, STHeiti, sans-serif,
 //   // Emoji
-//   'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol' !default;
+   'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol' !default;
 
 // Monospace
 $font-family-monospace: Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace !default;
@@ -86,7 +86,7 @@ $font-family-monospace: Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New
 // Spacing
 //
 
-$width-gap: 14px !default;
+$width-gap: 15px !default;
 
 // The padding of code
 // Set it carefully because it's hard to fill the whole line

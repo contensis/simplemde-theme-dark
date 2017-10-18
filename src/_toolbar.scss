@@ -8,8 +8,6 @@
     background-color: $color-background;
     border: 1px solid $color-border;
     border-bottom: 0;
-    border-top-left-radius: $border-radius;
-    border-top-right-radius: $border-radius;
     font-size: $font-size;
     padding: 0 $width-gap;
     position: relative;
@@ -152,10 +150,11 @@
   //
 
   .editor-toolbar.disabled-for-preview a:not(.no-disable) {
-    background-color: $smde-color-background-preview;
+    background-color: inherit;
     border-color: transparent;
     pointer-events: none;
     text-shadow: inherit;
+    opacity: 0.5;
   }
 
 }
